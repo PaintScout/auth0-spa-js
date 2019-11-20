@@ -2876,7 +2876,7 @@ var $n = Zn.getAll,
     );
   })();
 export default function(e) {
-  console.log('asdf'), Kn();
+  Kn();
   var t = new vr(e);
   return (
     or('auth0.is.authenticated') ||

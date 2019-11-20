@@ -3303,7 +3303,6 @@ var Auth0Client = /** @class */ (function() {
 })();
 
 function createAuth0Client(options) {
-  console.log('asdf');
   validateCrypto();
   var auth0 = new Auth0Client(options);
   if (!get$1('auth0.is.authenticated')) {
